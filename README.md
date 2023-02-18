@@ -30,17 +30,17 @@ activity.
 
 processInventory() – This function should read the item type and quantity
 from the input file and update the store’s inventory of the indicated item type.
-9/25/22 3:12 PM 2
+
 • processPurchase() – This function should read the customer’s name, the item
 type and the quantity. The function should look up the customer in the customer
 database (creating a new customer record if this is a 1st
--time customer) and increment
-the number of items purchased by this customer in their customer record. For example,
+-time customer) and increment the number of items purchased by this customer in their customer record. For example,
 if the customer record indicates that “Frank” had previously purchased 10 diapers and
 the current command indicates that “Frank” is purchasing 20 diapers, then the customer
 record should be set to indicate that 30 diapers have been purchased by Frank. Note
 that each customer should have their own customer record (so that Ellie can keep track
 of who her best customers are and offer incentives like coupons and things).
+  
 • processSummarize() – This command should print out a summary. The
 summary should first display the number of Bottles, Rattles, and Diapers remaining in
 inventory at the time of the Summarize command. Next, the summary should display
